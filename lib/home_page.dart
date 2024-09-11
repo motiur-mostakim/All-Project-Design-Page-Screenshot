@@ -14,7 +14,11 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          
+          IconButton(onPressed: (){
+            setState(() {
+                  isDrawerOpen = !isDrawerOpen;
+                });
+          }, icon: const Icon(Icons.menu))
         ],
       ),
       body: Stack(
