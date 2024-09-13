@@ -1,7 +1,8 @@
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -14,11 +15,13 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          IconButton(onPressed: (){
-            setState(() {
+          IconButton(
+              onPressed: () {
+                setState(() {
                   isDrawerOpen = !isDrawerOpen;
                 });
-          }, icon: const Icon(Icons.menu))
+              },
+              icon: const Icon(Icons.menu))
         ],
       ),
       body: Stack(
@@ -35,11 +38,11 @@ class _HomePageState extends State<HomePage> {
           ),
           AnimatedPositioned(
             duration: const Duration(milliseconds: 300),
-            top: isDrawerOpen ? 0 : -300, // Adjust height as needed
+            top: isDrawerOpen ? 0 : -300,
             left: 0,
             right: 0,
             child: Container(
-              height: 300, // Adjust height as needed
+              height: 300,
               color: Colors.blue,
               child: Column(
                 children: [
@@ -53,7 +56,6 @@ class _HomePageState extends State<HomePage> {
                     title: const Text('Settings'),
                     onTap: () {},
                   ),
-                  // Add more items here
                 ],
               ),
             ),
