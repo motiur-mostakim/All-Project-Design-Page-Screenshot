@@ -5,7 +5,6 @@
 ## ScreenShots of these application
 <br /> 
 <img align="left" alt="verify_page" width="360px"  src="https://github.com/motiur-mostakim/All-Project-Design-Page-Screenshot/blob/main/screenshots/banner_mostakim_profile.jpg" />
-Motiur Rahman Mostakim   Motiur Rahman Mostakim   Motiur Rahman Mostakim
 <img align="left" alt="verify_page" width="360px"  src="https://github.com/motiur-mostakim/All-Project-Design-Page-Screenshot/blob/main/screenshots/Screenshot17.png" />
 <img align="left" alt="verify_page" width="360px"  src="https://github.com/motiur-mostakim/All-Project-Design-Page-Screenshot/blob/main/screenshots/Screenshot18.png" />
 <img align="left" alt="verify_page" width="360px"  src="https://github.com/motiur-mostakim/All-Project-Design-Page-Screenshot/blob/main/screenshots/Screenshot19.png" />
